@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: center;
     border: 5px solid white;
+    transition: background 1s;
 }
 
 .temp-button {
@@ -57,4 +58,12 @@
 
 .temperature-display h1 {
     font-size: 48px;
+}
+
+.cold {
+    background-color: rgb(0, 128, 255);
+}
+
+.hot {
+    background-color: rgb(255, 94, 94);
 }
